@@ -4,12 +4,12 @@
 
 ## the Frame of OPMatch
 
-<img src="./fig/frame.png" alt="avatar" style="width: 80%; height: auto;">
+<img src="./fig/frame.png" alt="avatar" style="width: 50%; height: auto;">
 
 
 ## We compare our method with other method
 
-<img src="./fig/com.png" alt="avatar" style="width: 80%; height: auto;">
+<img src="./fig/com.png" alt="avatar" style="width: 50%; height: auto;">
 
 
 ## Experiment
@@ -53,7 +53,7 @@
 | **Ours**     |            |          | **90.50**    | **83.42**   | **1.24**    | **0.31**|
 
 We demonstrated the prediction results of our method on the ACDC dataset with 5% labels.As shown below：
-<img src="./fig/out.png" alt="avatar" style="width: 80%; height: auto;">
+<img src="./fig/out.png" alt="avatar" style="width: 50%; height: auto;">
 
 
 ## Pancrease-NIH Dataset
