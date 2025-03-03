@@ -16,7 +16,6 @@
 
 
 ### ACDC Dataset
-
 - Code path:*[ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Outcome:
@@ -53,16 +52,18 @@
 | ABD          | CVPR'24    |          | 89.81    | 81.95   | **1.46**    | 0.49    |
 | **Ours**     |            |          | **90.85**| **83.70**| 1.63| 0.59|
 
+We demonstrated the prediction results of our method on the ACDC dataset with 5% labels.As shown below：
 
 
 
 ## Pancrease-NIH Dataset
-
 - Code path:*[ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
-- Dataset links:*[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
+- Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Outcome:
 
-## Conclusion
+
+## Acknowledgement
+We extend our heartfelt gratitude to *[UniMatch](https://github.com/LiheYoung/UniMatch/blob/main/unimatch.py)* for providing the code, which has been invaluable to our work.
 
 
 
