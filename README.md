@@ -62,7 +62,7 @@ We demonstrated the prediction results of our method on the ACDC dataset with 5%
 
 
 ## Pancrease-NIH Dataset
-- Code path:*[ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
+- Code path:*[ACDC](https://arxiv.org/pdf/1506.06448)*
 - Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Outcome:
 Here is the table written in the requested format:
