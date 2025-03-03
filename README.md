@@ -2,14 +2,19 @@
 
 
 
-## the Frame of OPMatch
+## The Frame of OPMatch
 
 <img src="./fig/frame.png" alt="avatar" style="width: 50%; height: auto;">
 
 
-## We compare our method with other method
+We compare our method with other method
 
 <img src="./fig/com.png" alt="avatar" style="width: 50%; height: auto;">
+
+## Run our code
+```
+bash scrips/train_purb.sh 1 12366
+```
 
 
 ## Experiment
