@@ -37,7 +37,7 @@
 | CPC-SAM      | MICCAI'24  |          | 87.95    | 79.01   | 5.80    | 1.54    |
 | AD-MT        | ECCV'24    |          | 88.75    | 80.41   | 1.48    | 0.50    |
 | ABD          | CVPR'24    |          | 88.96    | 80.70   | 1.57    | 0.52    |
-| **Ours**     |            |          | **89.86**| **82.19**| **1.38**| **0.37**|
+| **Ours**     |            |          | **89.72**| **83.32**| **1.41**| **0.38**|
 | UA-MT        | MICCAI'19  | 7 (10%)  | 81.65    | 70.64   | 6.88    | 2.02    |
 | SASSNet      | MICCAI'20  |          | 84.50    | 74.34   | 5.42    | 1.86    |
 | DTC          | AAAI'21    |          | 84.29    | 73.92   | 12.81   | 4.01    |
@@ -48,18 +48,34 @@
 | UniMatch     | CVPR'23    |          | 88.08    | 80.10   | 2.09    | 0.45    |
 | BCP          | CVPR'23    |          | 88.84    | 80.62   | 3.98    | 1.17    |
 | MOST         | MICCAI'24  |          | 89.29    | 81.23   | 3.28    | 0.98    |
-| AD-MT        | ECCV'24    |          | 89.46    | 81.47   | 1.51    | **0.44**    |
-| ABD          | CVPR'24    |          | 89.81    | 81.95   | **1.46**    | 0.49    |
-| **Ours**     |            |          | **90.85**| **83.70**| 1.63| 0.59|
+| AD-MT        | ECCV'24    |          | 89.46    | 81.47   | 1.51    | 0.44    |
+| ABD          | CVPR'24    |          | 89.81    | 81.95   | 1.46    | 0.49    |
+| **Ours**     |            |          | **90.50**    | **83.42**   | **1.24**    | **0.31**|
 
 We demonstrated the prediction results of our method on the ACDC dataset with 5% labels.As shown below：
-
+<img src="./fig/out.png" alt="avatar" style="width: 80%; height: auto;">
 
 
 ## Pancrease-NIH Dataset
 - Code path:*[ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Outcome:
+Here is the table written in the requested format:
+
+| Method       | Year       | \#Lab.  | DSC↑     | mIoU↑   | 95HD↓   | ASD↓    |
+|--------------|------------|----------|----------|---------|---------|---------|
+| V-Net        |            | 6 (10%)  | 42.56    | 36.71   | 42.61   | 11.68   |
+| V-Net        |            | 62 (All) | 77.84    | 64.78   | 8.92    | 3.73    |
+| UA-MT        | MICCAI'19  | 6 (10%)  | 53.07    | 38.90   | 25.11   | 9.22    |
+| SASSNet      | MICCAI'20  |          | 56.23    | 41.98   | 26.16   | 8.97    |
+| DTC          | AAAI'21    |          | 59.54    | 45.61   | 16.53   | 16.53   |
+| PS-MT        | CVPR'21    |          | 76.94    | 62.37   | 13.12   | 3.66    |
+| UniMatch     | CVPR'23    |          | 69.90    | 55.13   | 12.94   | 3.56    |
+| BCP          | CVPR'23    |          | 73.83    | 59.24   | 12.71   | 3.72    |
+| AD-MT        | ECCV'24    |          | 80.21    | 67.51   | **7.18**| **1.66**|
+| **Ours**     |            |          | **80.42**| **67.61**| 10.72   | 2.29    |
+
+
 
 
 ## Acknowledgement
