@@ -4,7 +4,7 @@
 
 ## the Frame of OPMatch
 
-<img src="./framework.png" alt="avatar" style="width: 80%; height: auto;">
+<img src="./frame.pdf" alt="avatar" style="width: 80%; height: auto;">
 
 ## We compare our method with other method
 
