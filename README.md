@@ -20,6 +20,7 @@
 - Code path:*[ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Outcome:
+
 | Method       | Year       | \#Lab.  | DSC↑     | mIoU↑   | 95HD↓   | ASD↓    |
 |--------------|------------|----------|----------|---------|---------|---------|
 | U-Net        |            | 3 (5%)   | 47.83    | 37.01   | 31.16   | 12.62   |
