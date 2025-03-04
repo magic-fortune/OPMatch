@@ -4,8 +4,7 @@
 
 ## The Frame of OPMatch
 
-<img src="./fig/frame.png" alt="avatar" style="width: 50%; height: auto;">
-
+![pipeline](./fig/frame.png)
 
 We compare our method with other method
 
