@@ -3,12 +3,10 @@
 
 
 ## The Frame of OPMatch
-
 ![pipeline](./fig/frame.png)
 
 We compare our method with other method
-
-<img src="./fig/com.png" alt="avatar" style="width: 50%; height: auto;">
+![pipeline](./fig/com.png)
 
 ## Run our code
 ACDC:
@@ -64,7 +62,7 @@ bash train_opmatch.sh 1 12366
 | **Ours**     |            |          | **90.50**    | **83.42**   | **1.24**    | **0.31**|
 
 We demonstrated the prediction results of our method on the ACDC dataset with 5% labels.As shown below：
-<img src="./fig/out.png" alt="avatar" style="width: 50%; height: auto;">
+![pipeline](./fig/out.png)
 
 
 ## Pancrease-NIH Dataset
