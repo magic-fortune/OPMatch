@@ -15,7 +15,7 @@ We compare our method with other method
 ACDC:
 ```
 cd ACDC
-bash scrips/train.sh 1 12366
+bash scripts/train.sh 1 12366
 ```
 
 Pancreas:
