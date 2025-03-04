@@ -15,14 +15,14 @@ We compare our method with other method
 ACDC:
 ```
 cd ACDC
-bash scrips/train_opmatch.sh 1 12366
+bash scrips/train.sh 1 12366
 ```
 
 Pancreas:
 ```
 cd Pancreas
 cd code
-bash scrips/train_opmatch.sh 1 12366
+bash train_opmatch.sh 1 12366
 ```
 
 ## Experiment
