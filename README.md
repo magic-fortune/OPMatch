@@ -12,10 +12,17 @@ We compare our method with other method
 <img src="./fig/com.png" alt="avatar" style="width: 50%; height: auto;">
 
 ## Run our code
+ACDC:
 ```
-bash scrips/train_purb.sh 1 12366
+cd ACDC
+bash scrips/train_opmatch.sh 1 12366
 ```
 
+Pancreas:
+```
+cd Pancreas
+bash scrips/train_opmatch.sh 1 12366
+```
 
 ## Experiment
 
@@ -62,8 +69,8 @@ We demonstrated the prediction results of our method on the ACDC dataset with 5%
 
 
 ## Pancrease-NIH Dataset
-- Code path:*[ACDC](https://arxiv.org/pdf/1506.06448)*
-- Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
+- Code path:*[Pancreas](https://arxiv.org/pdf/1506.06448)*
+- Dataset links: *[train for Pancreas](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
 - Outcome:
 Here is the table written in the requested format:
 
