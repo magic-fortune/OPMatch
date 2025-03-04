@@ -21,6 +21,7 @@ bash scrips/train_opmatch.sh 1 12366
 Pancreas:
 ```
 cd Pancreas
+cd code
 bash scrips/train_opmatch.sh 1 12366
 ```
 
@@ -28,8 +29,7 @@ bash scrips/train_opmatch.sh 1 12366
 
 
 ### ACDC Dataset
-- Code path:*[ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
-- Dataset links: *[train for ACDC](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
+- Code path: *[train for ACDC](https://github.com/magic-fortune/OPMatch/blob/main/ACDC/train_opmatch.py)*
 - Outcome:
 
 | Method       | Year       | \#Lab.  | DSC↑     | mIoU↑   | 95HD↓   | ASD↓    |
@@ -69,8 +69,7 @@ We demonstrated the prediction results of our method on the ACDC dataset with 5%
 
 
 ## Pancrease-NIH Dataset
-- Code path:*[Pancreas](https://arxiv.org/pdf/1506.06448)*
-- Dataset links: *[train for Pancreas](https://github.com/HiLab-git/SSL4MIS/tree/master/data/ACDC)*
+-  Code path: *[train for Pancreas](https://github.com/magic-fortune/OPMatch/blob/main/Pancreas/code/train_opmatch.py)*
 - Outcome:
 Here is the table written in the requested format:
 
