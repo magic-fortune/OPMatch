@@ -8,8 +8,12 @@
 We compare our method with other method
 ![pipeline](./fig/com.png)
 
-## Vis one the Himmelblau Function
-![Optimization Paths](./fig/optimization_rotation.gif)
+## Vis on the Himmelblau Function
+![Optimization Rotation](./fig/optimization_rotation.gif)
+Here, red represents the gradient change without noise, and blue represents the gradient change with noise.
+
+![Optimization Paths](./fig/optimization_paths.gif)
+
 
 ## Run our code
 ACDC:
