@@ -9,8 +9,7 @@ We compare our method with other method
 ![pipeline](./fig/com.png)
 
 ## Vis one the Himmelblau Function
-
-
+![pipeline](./fig/optimization_rotation.gif)
 
 ## Run our code
 ACDC:
