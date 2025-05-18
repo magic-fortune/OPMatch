@@ -1,7 +1,5 @@
 # OPMatch:Optimizer Perturbation-Driven Consistency Regularization for Semi-Supervised Image Segmentation
 
-
-
 ## The Frame of OPMatch
 ![pipeline](./fig/frame.png)
 
