@@ -7,13 +7,19 @@ We compare our method with other method
 ![pipeline](./fig/com.png)
 
 ## Vis on the Himmelblau Function
+Himmelblau Function：
+$$
+f(x, y) = (x^2 + y - 11)^2 + (x + y^2 - 7)^2
+$$
+
 ![Optimization Rotation](./fig/optimization_rotation.gif)
-Here, red represents the gradient change without noise, and blue represents the gradient change with noise.
+  Here, red represents the gradient change without noise, and blue represents the gradient change with noise.
 
 ![Optimization Paths](./fig/optimization_paths.gif)
 
 ##  Apply our method to other SOTA methods
-As demonstrated in Table X, our OPMatch (★) exhibits framework-agnostic characteristics: **When deployed with stronger base frameworks (e.g., achieving 90.5% in the 7 Cases scenario), OPMatch demonstrates scalable performance gains — the more robust the host framework, the more substantial the marginal improvement. **This empirically validates our core proposition: OPMatch's "perturbation-invariant" design fundamentally transcends the framework-specific limitations of conventional approaches, establishing it as a universal performance amplifier for semi-supervised learning systems.
+   As demonstrated in Table X, our OPMatch (★) exhibits framework-agnostic characteristics: **When deployed with stronger base frameworks (e.g., achieving 90.5% in the 7 Cases scenario), OPMatch demonstrates scalable performance gains — the more robust the host framework, the more substantial the marginal improvement.** 
+   This empirically validates our core proposition: OPMatch's "perturbation-invariant" design fundamentally transcends the framework-specific limitations of conventional approaches, establishing it as a universal performance amplifier for semi-supervised learning systems.
 
 | Method          | 3 Cases<br>(%) | 7 Cases<br>(%) | Δ (3 Cases) | Δ (7 Cases) |
 |-----------------|:--------------:|:--------------:|:-----------:|:-----------:|
