@@ -8,14 +8,16 @@ We compare our method with other method
 
 ## Vis on the Himmelblau Function
 Himmelblau Function：
-$$
+```math
 f(x, y) = (x^2 + y - 11)^2 + (x + y^2 - 7)^2
-$$
-
+```
+  We use two different optimization strategies (a standard optimizer and a noisy optimizer) to optimize the Himmelblau function. The Himmelblau function is a commonly used mathematical function for testing optimization algorithms, with the goal of finding its minimum value. By comparing the standard optimization path with the noisy optimization path, the code demonstrates the impact of noise on the search trajectory during the optimization process. By contrasting the noisy optimization path with the noise-free one, we can visually observe the role of noise in the optimization process, particularly in terms of convergence and stability.
+  
 ![Optimization Rotation](./fig/optimization_rotation.gif)
-  Here, red represents the gradient change without noise, and blue represents the gradient change with noise.
 
 ![Optimization Paths](./fig/optimization_paths.gif)
+  Here, red represents the gradient change without noise, and blue represents the gradient change with noise.
+
 
 ##  Apply our method to other SOTA methods
    As demonstrated in Table X, our OPMatch (★) exhibits framework-agnostic characteristics: **When deployed with stronger base frameworks (e.g., achieving 90.5% in the 7 Cases scenario), OPMatch demonstrates scalable performance gains — the more robust the host framework, the more substantial the marginal improvement.** 
@@ -47,7 +49,11 @@ bash train_opmatch.sh 1 12366
 ## Experiment
 
 
-### ACDC Dataset
+## LA Dataset
+
+
+
+## ACDC Dataset
 - Code path: *[train for ACDC](https://github.com/magic-fortune/OPMatch/blob/main/ACDC/train_opmatch.py)*
 - Outcome:
 
