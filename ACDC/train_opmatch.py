@@ -124,7 +124,8 @@ def main():
                     noise = torch.randn_like(param) * torch.sign(torch.randn_like(param)) * stddev  
                 else:
                     raise ValueError("Unsupported noise type")
-                param.data += noise
+                if param.grad is not None:
+                    param.grad.data += noise
         
                     
     for epoch in range(epoch + 1, cfg['epochs']):
