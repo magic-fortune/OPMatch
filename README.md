@@ -13,7 +13,7 @@ Here, red represents the gradient change without noise, and blue represents the 
 ![Optimization Paths](./fig/optimization_paths.gif)
 
 ##  Apply our method to other SOTA methods
-As demonstrated in Table X, our OPMatch (★) exhibits framework-agnostic characteristics: ** When deployed with stronger base frameworks (e.g., achieving 90.5% in the 7 Cases scenario), OPMatch demonstrates scalable performance gains — the more robust the host framework, the more substantial the marginal improvement.** This empirically validates our core proposition: OPMatch's "perturbation-invariant" design fundamentally transcends the framework-specific limitations of conventional approaches, establishing it as a universal performance amplifier for semi-supervised learning systems.
+As demonstrated in Table X, our OPMatch (★) exhibits framework-agnostic characteristics: **When deployed with stronger base frameworks (e.g., achieving 90.5% in the 7 Cases scenario), OPMatch demonstrates scalable performance gains — the more robust the host framework, the more substantial the marginal improvement. **This empirically validates our core proposition: OPMatch's "perturbation-invariant" design fundamentally transcends the framework-specific limitations of conventional approaches, establishing it as a universal performance amplifier for semi-supervised learning systems.
 
 | Method          | 3 Cases<br>(%) | 7 Cases<br>(%) | Δ (3 Cases) | Δ (7 Cases) |
 |-----------------|:--------------:|:--------------:|:-----------:|:-----------:|
