@@ -255,7 +255,8 @@ if __name__ == "__main__":
                     noise = (torch.rand_like(param) < 0.5).float() * noise_strength  
                 else:
                     raise ValueError("Unsupported noise type")
-                param.data += noise
+                if param.grad is not None:
+                    param.grad.data += noise
 
 
 
