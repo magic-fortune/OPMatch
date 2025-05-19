@@ -4,7 +4,7 @@
 ![pipeline](./fig/frame.png)
 
 We compare our method with other method
-![pipeline](./fig/com.png)
+![pipeline](./fig/com.png
 
 ## Vis on the Himmelblau Function
 ![Optimization Rotation](./fig/optimization_rotation.gif)
@@ -12,6 +12,18 @@ Here, red represents the gradient change without noise, and blue represents the 
 
 ![Optimization Paths](./fig/optimization_paths.gif)
 
+##  Apply our method to other SOTA methods
+    |    |    |    |
+| Method        | DSC↑ (%) | mIoU↑ (%) | 95HD↓      | ASD↓      |
+|---------------|---------:|----------:|-----------:|----------:|
+| FixMatch      |     82.3 |      75.1 |       3.42 |      1.23 |
+| OPMatch(Ours)|     89.7 |      83.6 |       2.15 |      0.87 |
+|---------------|---------:|----------:|-----------:|----------:|
+| UniMatch      |     91.2 |      85.3 |       1.98 |      0.75 |
+| OPMatch(Ours)|     82.3 |      75.1 |       3.42 |      1.23 |
+|---------------|---------:|----------:|-----------:|----------:|
+| BCP           |     89.7 |      83.6 |       2.15 |      0.87 |
+| OPMatch(Ours)     |     91.2 |      85.3 |       1.98 |      0.75 |
 
 ## Run our code
 ACDC:
